@@ -1,21 +1,28 @@
-@import url("https://use.typekit.net/cnc6cbd.css");
+@import url('https://use.typekit.net/cnc6cbd.css');
 :root {
   --es-blue-accent: #009fe3;
 }
 
 /* Locator Web Light */
 @font-face {
-  font-family: "LocatorWeb";
-  src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot");
-  src: url("./assets/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff2") format("woff2"), url("./assets/fonts/LocatorWebLight/LocatorWebLight.woff") format("woff");
+  font-family: 'LocatorWeb';
+  src: url('./static/fonts/LocatorWebLight/LocatorWebLight.eot');
+  src: url('./static/fonts/LocatorWebLight/LocatorWebLight.eot?#iefix')
+      format('embedded-opentype'),
+    url('./static/fonts/LocatorWebLight/LocatorWebLight.woff2') format('woff2'),
+    url('./static/fonts/LocatorWebLight/LocatorWebLight.woff') format('woff');
   font-weight: 200;
   font-style: normal;
 }
 /* Locator Web Medium */
 @font-face {
-  font-family: "LocatorWeb";
-  src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot");
-  src: url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix") format("embedded-opentype"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff2") format("woff2"), url("./assets/fonts/LocatorWebMedium/LocatorWebMedium.woff") format("woff");
+  font-family: 'LocatorWeb';
+  src: url('./static/fonts/LocatorWebMedium/LocatorWebMedium.eot');
+  src: url('./static/fonts/LocatorWebMedium/LocatorWebMedium.eot?#iefix')
+      format('embedded-opentype'),
+    url('./static/fonts/LocatorWebMedium/LocatorWebMedium.woff2')
+      format('woff2'),
+    url('./static/fonts/LocatorWebMedium/LocatorWebMedium.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -262,8 +269,8 @@
   margin-right: 10px;
   height: 30px;
   min-width: 40px;
-  content: "";
-  background: url(../img/check-icon.png) no-repeat 0 0;
+  content: '';
+  background: url(./static/img/check-icon.png) no-repeat 0 0;
   background-size: 25px 25px;
 }
 #la-roche.la-roche .es-results__single span {
@@ -320,22 +327,22 @@
   background-size: 105%;
 }
 #la-roche.la-roche .es-ingr__main--1 {
-  background-image: url(../img/ingr-1.png);
+  background-image: url(./static/img/ingr-1.png);
 }
 #la-roche.la-roche .es-ingr__main--2 {
-  background-image: url(../img/ingr-2.png);
+  background-image: url(./static/img/ingr-2.png);
 }
 #la-roche.la-roche .es-ingr__main--3 {
-  background-image: url(../img/ingr-3.png);
+  background-image: url(./static/img/ingr-3.png);
 }
 #la-roche.la-roche .es-ingr__main--4 {
-  background-image: url(../img/ingr-4.png);
+  background-image: url(./static/img/ingr-4.png);
 }
 #la-roche.la-roche .es-ingr__main--5 {
-  background-image: url(../img/ingr-5.png);
+  background-image: url(./static/img/ingr-5.png);
 }
 #la-roche.la-roche .es-ingr__main--6 {
-  background-image: url(../img/ingr-6.png);
+  background-image: url(./static/img/ingr-6.png);
 }
 #la-roche.la-roche .es-ingr__name {
   text-transform: uppercase;
@@ -355,7 +362,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background-image: url(../img/effect-bg.png);
+  background-image: url(./static/img/effect-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: -419px 7px;
@@ -443,7 +450,7 @@
   line-height: 1.4;
 }
 #la-roche.la-roche .es-use ol li::marker {
-  content: counter(my-counter) ".";
+  content: counter(my-counter) '.';
   font-weight: 400;
   font-size: 0.8rem;
   font-family: Montserrat, sans-serif;
@@ -461,7 +468,7 @@
   color: #fff;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 35px;
   font-size: clamp(1rem, 1.3222rem + 0.9889vw, 5.7rem);
 }
 #la-roche.la-roche .es-cross__single {
@@ -566,16 +573,16 @@
   margin: 3.5px;
 }
 #la-roche.la-roche .es-obligations__single--1 {
-  background-image: url(../img/obligations-bg-1.png);
+  background-image: url(./static/img/obligations-bg-1.png);
 }
 #la-roche.la-roche .es-obligations__single--2 {
-  background-image: url(../img/obligations-bg-2.png);
+  background-image: url(./static/img/obligations-bg-2.png);
 }
 #la-roche.la-roche .es-obligations__single--3 {
-  background-image: url(../img/obligations-bg-3.png);
+  background-image: url(./static/img/obligations-bg-3.png);
 }
 #la-roche.la-roche .es-obligations__single--4 {
-  background-image: url(../img/obligations-bg-4.png);
+  background-image: url(./static/img/obligations-bg-4.png);
 }
 #la-roche.la-roche .es-obligations__text {
   color: #fff;
@@ -598,7 +605,7 @@
 @media screen and (min-width: 600px) {
   #la-roche.la-roche .es-results {
     padding: 4rem 0 4rem 20rem;
-    background-image: url(../img/mela-b3.png);
+    background-image: url(./static/img/mela-b3.png);
     background-size: cover;
     background-position: -100px;
   }
@@ -680,7 +687,7 @@
 }
 @media screen and (min-width: 700px) {
   #la-roche.la-roche .es-use {
-    background-image: url(../img/bg-use-min.png);
+    background-image: url(./static/img/bg-use-min.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: left;
@@ -691,7 +698,7 @@
     padding-right: 0;
   }
   #la-roche.la-roche .es-features {
-    background-image: url(../img/feat-ingr-bg.png);
+    background-image: url(./static/img/feat-ingr-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 0;
@@ -717,9 +724,10 @@
     margin: 0 auto;
     max-width: 34ch;
     min-width: auto;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
   #la-roche.la-roche .es-effect__item-description {
+    margin-top: 0;
     padding-left: 2px;
     padding-right: 2px;
     font-size: 16px;
@@ -740,7 +748,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    max-width: 33%;
+    max-width: 30%;
     position: relative;
   }
   #la-roche.la-roche .es-cross__single img {
@@ -763,8 +771,8 @@
   }
   #la-roche.la-roche .es-cross__number {
     position: absolute;
-    top: -80px;
-    left: 65%;
+    top: -94px;
+    left: 71%;
   }
   #la-roche.la-roche .es-cross__content {
     min-height: 500px;
@@ -772,7 +780,9 @@
   #la-roche.la-roche .es-cross__single--1 img {
     margin-top: -100px;
   }
-  #la-roche.la-roche .es-cross__name, #la-roche.la-roche .es-cross__name-subtitle, #la-roche.la-roche .es-cross__desc {
+  #la-roche.la-roche .es-cross__name,
+  #la-roche.la-roche .es-cross__name-subtitle,
+  #la-roche.la-roche .es-cross__desc {
     text-align: center;
   }
   #la-roche.la-roche .es-cross__name-subtitle {
@@ -792,13 +802,13 @@
 }
 @media screen and (min-width: 985px) {
   #la-roche.la-roche .es-kv {
-    padding-top: 50px;
+    padding-top: 35px;
     padding-right: 0;
     justify-content: flex-end;
     align-items: flex-start;
     position: relative;
     -moz-column-gap: 30px;
-         column-gap: 30px;
+    column-gap: 30px;
   }
   #la-roche.la-roche .es-kv__packshot {
     position: absolute;
@@ -840,7 +850,7 @@
     background-position: left;
   }
   #la-roche.la-roche .es-results {
-    padding: 3.7rem 0 4rem 34rem;
+    padding: 3.7rem 0 4rem 32rem;
   }
   #la-roche.la-roche .es-use__content {
     max-width: 58%;
@@ -874,7 +884,7 @@
   }
   #la-roche.la-roche .es-cross__name {
     margin-top: -20px;
-    margin-bottom: 10px;
+    margin-bottom: 26px;
     font-size: 21px;
   }
   #la-roche.la-roche .es-cross__name-subtitle {
@@ -885,12 +895,18 @@
     margin-top: 10px;
   }
   #la-roche.la-roche .es-cross__desc {
-    max-width: 21ch;
-    font-size: 14px;
-    margin-bottom: 20px;
     margin: 0 auto;
+    max-width: 21ch;
+    font-size: 15px;
+    margin-bottom: 20px;
+    line-height: 1.4;
+  }
+  #la-roche.la-roche .es-obligations__title {
+    font-size: 40px;
   }
   #la-roche.la-roche .es-footer {
-    margin-top: 75px;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 48px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
